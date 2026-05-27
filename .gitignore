@@ -1,0 +1,32 @@
+# 环境变量（含 API Key）
+.env
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+dist/
+build/
+.venv/
+venv/
+
+# MinerU 输出
+data/cache/
+*.magicpdf.*
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# 测试 PDF（不提交版权文献）
+data/pdfs/*.pdf
+
+# Gradio
+gradio_cached_examples/
+flagged/

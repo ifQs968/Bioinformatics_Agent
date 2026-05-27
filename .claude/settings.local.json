@@ -1,0 +1,22 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(python -c \"import py_compile; import glob; files = glob.glob\\('src/**/*.py', recursive=True\\) + glob.glob\\('src/*.py', recursive=True\\); [py_compile.compile\\(f, doraise=True\\) and print\\(f'  OK: {f}'\\) for f in files]\")",
+      "Bash(where python3 *)",
+      "Bash(where python *)",
+      "Read(//c/Users/49586/AppData/Local/Programs/**)",
+      "Bash(mv src/ui/app.py src/ui/app_gradio.py.bak)",
+      "Bash(mv src/ui/report_renderer.py src/ui/report_renderer_gradio.py.bak)",
+      "Bash(npm --version)",
+      "Bash(npm create *)",
+      "Bash(npm install *)",
+      "Bash(npx tsc *)",
+      "Bash(npm run *)",
+      "Bash(npm ls *)",
+      "Bash(md5sum llm_client.py)",
+      "Bash(certutil -hashfile llm_client.py MD5)",
+      "Bash(python -c ' *)",
+      "Bash(python3 -c ' *)"
+    ]
+  }
+}
