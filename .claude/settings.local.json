@@ -23,7 +23,9 @@
       "Bash(dir \"C:\\\\Users\\\\49586\\\\Desktop\\\\Learning\\\\AI\\\\Bioinformatics_Agent\\\\.venv\\\\Scripts\")",
       "Bash(dir \"C:\\\\Users\\\\49586\\\\Desktop\\\\Learning\\\\AI\\\\Bioinformatics_Agent\" /b)",
       "Bash(dir \"C:\\\\Users\\\\49586\\\\Desktop\\\\Learning\\\\AI\\\\Bioinformatics_Agent\\\\.venv\\\\Scripts\\\\python.exe\")",
-      "Bash(npx vite *)"
+      "Bash(npx vite *)",
+      "Read(//c/Users/49586/Desktop/**)",
+      "Read(//c/Users/49586/Desktop/Learning/**)"
     ]
   }
 }

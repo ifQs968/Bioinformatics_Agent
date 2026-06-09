@@ -1,0 +1,8 @@
+代码仓库链接：
+
+https://github.com/BeatGene/Bioinformatics_Agent
+
+说明：
+1. 仓库为公开仓库，评审者可直接访问。
+2. 主分支为 master。
+3. 敏感信息（API Key）已通过 .env 管理，未提交到仓库中。
